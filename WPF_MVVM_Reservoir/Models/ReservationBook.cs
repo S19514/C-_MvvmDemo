@@ -15,9 +15,13 @@ namespace WPF_MVVM_Reservoir.Models
         {
             _reservations = new List<Reservation>();
         }
-        public IEnumerable<Reservation> GetReservationsForUser(string username)
+        /// <summary>
+        /// Get All reservations
+        /// </summary>
+        /// <returns> All reservations in the reservation book.</returns>
+        public IEnumerable<Reservation> GetAllReservations()
         {
-            return _reservations.Where(r => r.UserName == username);
+            return _reservations;
         }
         public void AddReservation(Reservation reservation)
         {

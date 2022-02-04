@@ -24,9 +24,9 @@ namespace WPF_MVVM_Reservoir.Models
         /// <param name="username"></param>
         /// <returns></returns>
         /// 
-        public IEnumerable<Reservation> GetReservationsForUser(string username)
+        public IEnumerable<Reservation> GetReservations()
         { 
-            return _reservationBook.GetReservationsForUser(username);
+            return _reservationBook.GetAllReservations();
         }
         /// <summary>
         /// 
