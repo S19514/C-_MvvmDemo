@@ -20,3 +20,9 @@ C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\WPF_MVVM_R
 C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\ref\WPF_MVVM_Reservoir.dll
 C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\WPF_MVVM_Reservoir.pdb
 C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\WPF_MVVM_Reservoir.genruntimeconfig.cache
+C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\Views\MakeReservationView.g.cs
+C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\Views\ReservationListingView.g.cs
+C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\Views\MakeReservationView.baml
+C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\Views\ReservationListingView.baml
+C:\Studia\git\C-_MvvmDemo\WPF_MVVM_Reservoir\obj\Debug\net5.0-windows\App.baml
