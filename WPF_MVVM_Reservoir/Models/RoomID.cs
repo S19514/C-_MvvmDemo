@@ -41,6 +41,7 @@ namespace WPF_MVVM_Reservoir.Models
         public static bool operator !=(RoomID roomID1, RoomID roomID2)
         {
             return !(roomID1 == roomID2);
+            ///
         }
 
     }
