@@ -16,6 +16,61 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" 
+                       Text="View Reservations" 
+                       Style="{StaticResource Header}"/>
+
+            <Button Content="Make Reservation"
+                    Grid.Column="1"
+                    Margin="10 0 0 0"
+                    Command="{Binding MakeReservationCommand}"/>
         </Grid>
+
+        <ListView Grid.Row="1" Margin="0 25 0 0 ">
+            <ListViewItem/>
+            <ListViewItem/>
+            <ListViewItem/>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Room ID">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Padding="0 0 20 0" HorizontalAlignment="Center" Text="12" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Username">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Padding="0 0 20 0" HorizontalAlignment="Center" Text="Adam"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Start Date">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Padding="0 0 20 0" HorizontalAlignment="Center" Text="8/20/2021"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="End Date">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Padding="0 0 20 0" HorizontalAlignment="Center" Text="10/5/2021"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+                  
     </Grid>
 </UserControl>
